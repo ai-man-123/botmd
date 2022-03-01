@@ -10,7 +10,7 @@ let fetch = require('node-fetch')
 
 let handler = async (m, { conn, command, text, usedPrefix }) => {
 
-  if (!text) throw `නමක් 😒?\n\උදාහරණ:\n${usedPrefix + command} සදරු අයියෙ`
+  if (!text) throw `Sebuah nama😒?\n\Contohnya:\n${usedPrefix + command} සදරු අයියෙ`
 
   let chat = global.db.data.chats[m.chat]
 
@@ -18,7 +18,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 
   let vid = results.all.find(video => video.seconds < 3600)
 
-  if (!vid) throw 'සොයා ගත නොහැක'
+  if (!vid) throw 'Tidak dapat ditemukan'
 
   let isVideo = /2$/.test(command)
 
@@ -50,9 +50,9 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
 
   }
 
-  if (yt === false) throw 'සර්වර් කාර්‍යබහුලය'
+  if (yt === false) throw 'Tidak dapat ditemukan'
 
-  if (yt2 === false) throw 'සර්වර් කාර්‍යබහුලය'
+  if (yt2 === false) throw 'Tidak dapat ditemukan'
 
   let { dl_link, thumb, title, filesize, filesizeF } = yt
 
@@ -92,7 +92,7 @@ ${vid.url}
 
                displayText: 'MY WEBSITE',
 
-               url: 'www.supuna.ml',
+               url: 'https://s.id/yoaiman',
 
              }
 
