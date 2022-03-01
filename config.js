@@ -1,4 +1,4 @@
-global.owner = ['94742134288'] // Put your number here
+global.owner = ['60102810046'] // Put your number here
 
 global.mods = [] // Want some help?
 
@@ -80,15 +80,15 @@ global.APIKeys = { // APIKey Here
 
 // Sticker WM
 
-global.packname = 'BOT KINGDOM'
+global.packname = 'AZBot'
 
-global.author = '❤️'
+global.author = 'by Aiman'
 
-global.wm = 'ＢＯＴ ＫＩＮＧＤＯＭ'
+global.wm = 'AZbotx2'
 
 global.media = 'https://telegra.ph/file/4475cfb321abebedc758d.jpg'
 
-global.instagram = 'https://instagram.com/supuna808'
+global.instagram = 'https://instagram.com/aiman1_23'
 
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&doScale=true&scaleWidth=500&scaleHeight=500&fontsize=100&fillTextType=0&backgroundColor=%23101820&text='
 
