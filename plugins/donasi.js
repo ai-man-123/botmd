@@ -5,11 +5,11 @@
 
 const { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, downloadContentFromMessage, downloadHistory, proto, getMessage, generateWAMessageContent, prepareWAMessageMedia } = require('@adiwajshing/baileys-md')
 let handler = async (m) => {
-let duit = `*────── 「 BOT KINGDOM 」 ──────*
+let duit = `*────── 「 AZ bot 」 ──────*
 
 
 HAI
-https://chat.whatsapp.com/CIDWlH7yzEsKombRDcTKcV`
+https://github.com/ai-man-123`
 let message = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/file/1afe4bdf9c931fdb6f54d.jpg' }}, { upload: conn.waUploadToServer })
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
      templateMessage: {
@@ -19,15 +19,15 @@ let message = await prepareWAMessageMedia({ image: {url: 'https://telegra.ph/fil
            hydratedFooterText: wm,
            hydratedButtons: [{
              urlButton: {
-               displayText: '🏧 MY WEBSITE',
-               url: 'supuna.ml'
+               displayText: 'MY WEBSITE',
+               url: 'https://s.id/yoaiman'
              }
 
            },
                {
              callButton: {
                displayText: 'call',
-               phoneNumber: '+94'
+               phoneNumber: '+60 10-281 0046'
              }
            },           
                {
