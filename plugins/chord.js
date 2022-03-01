@@ -2,7 +2,7 @@ let fetch = require('node-fetch')
 
 let handler = async (m, { text }) => {
 
-  if (!text) throw 'ගීතයේ නම'
+  if (!text) throw 'Judul lagu'
 
   let res = await fetch(`http://hadi-api.herokuapp.com/api/chord?q=${text}`)
 
@@ -10,7 +10,7 @@ let handler = async (m, { text }) => {
 
   if (json.status) m.reply(json.result)
 
-  else throw 'සොයා ගත නොහැක'
+  else throw 'Tidak dapat ditemukan'
 
 }
 
