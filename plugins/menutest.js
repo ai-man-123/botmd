@@ -102,8 +102,6 @@ let handler = async (m, { conn, usedPrefix: _p, args, command, DevMode }) => {
 
     'update': 'UPDATE',
 
-    'nsfw': 'NSFW',
-
     'host': 'HOST',
 
   }
@@ -117,12 +115,6 @@ let handler = async (m, { conn, usedPrefix: _p, args, command, DevMode }) => {
   if (teks == 'anime') tags = {
 
     'anime': 'Anime'
-
-  }
-
-  if (teks == 'nsfw') tags = {
-
-    'nsfw': 'Nsfw'
 
   }
 
@@ -288,13 +280,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command, DevMode }) => {
 
     'advanced': 'Advanced'
 
-  }
-
- if (teks == 'nsfw') tags = {
-
-    'nsfw': 'Nsfw'
-
-  }
+ }
 
   if (teks == 'update') tags = {
 
@@ -659,20 +645,6 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
                 }],
 
                 "title": "─────「 16 」"
-
-              }, {
-
-                "rows": [{
-
-                  "title": `Menu Nsfw`,
-
-                  "description": "Menu khusus dewasa 🔞",
-
-                  "rowId": `${_p}? nsfw`
-
-                }],
-
-                "title": "─────「 17 」"
 
               }, {
 
