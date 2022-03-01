@@ -35,8 +35,6 @@ let tags = {
 
   'downloader': 'DOWNLOADER',
 
-  'nsfw': 'MENU NSFW',
-
   'tools': 'MENU TOOLS',
 
   'advanced': 'ADVANCED',
@@ -322,9 +320,9 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
 
              urlButton: {
 
-               displayText: '💠 GROUP',
+               displayText: '💠 𝘚𝘰𝘶𝘳𝘤𝘦 𝘊𝘰𝘥𝘦',
 
-               url: 'https://chat.whatsapp.com/CIDWlH7yzEsKombRDcTKcV'
+               url: 'https://github.com/ai-man-123'
 
              }
 
@@ -334,21 +332,9 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
 
              callButton: {
 
-               displayText: 'Owner',
+               displayText: 'Call owner',
 
-               PhoneNumber: '94'
-
-             }
-
-           },
-
-               {
-
-             quickReplyButton: {
-
-               displayText: '🧒 Owner',
-
-               id: '.owner',
+               PhoneNumber: '+60 10-281 0046'
 
              }
 
@@ -358,7 +344,19 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
 
              quickReplyButton: {
 
-               displayText:  'GROUP',
+               displayText: '📶 Statistic',
+
+               id: '.ping',
+
+             }
+
+           },
+
+               {
+
+             quickReplyButton: {
+
+               displayText:  'Donasi',
 
                id: '.donasi',
 
@@ -370,9 +368,9 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
 
              quickReplyButton: {
 
-               displayText: '📍 SPEED',
+               displayText: 'owner',
 
-               id: '.ping',
+               id: '.owner',
 
              }
 
