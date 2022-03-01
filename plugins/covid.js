@@ -22,7 +22,7 @@ Deaths : ${json.deaths.value}
 
 Last Update : ${json.lastUpdate}
 
-\n\n@Botkingdom`.trim())
+\n\n@AZbot`.trim())
 
   else throw json
 
