@@ -54,7 +54,7 @@ const defaultMenu = {
 
 │✾ Version: %version
 
-│✾ Library: Baileys
+│✾ Library: Baileys MD
 
 │✾ Runtime: %uptime
 
@@ -78,9 +78,9 @@ const defaultMenu = {
 
 ╰❑
 
-╭─❑ 「 BOTKINGDOM 」 ❑──
+╭─❑ 「 Github 」 ❑──
 
-│ https://chat.whatsapp.com/CIDWlH7yzEsKombRDcTKcV
+│ https://github.com/ai-man-123
 
 ╰❑
 
