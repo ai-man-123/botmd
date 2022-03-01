@@ -531,7 +531,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
 
                   "title": "OWNER MENU",
 
-                  "description": "",
+                  "description": "Aimanx2",
 
                   "rowId": `${_p}? owner`
 
