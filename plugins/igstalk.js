@@ -6,7 +6,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 
   if (!args || !args[0]) throw ` ${usedPrefix}${command} [username]
 
-උදා: ${usedPrefix}${command} name
+Misalnya: ${usedPrefix}${command} name
 
 `.trim()
 
