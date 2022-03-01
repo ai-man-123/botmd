@@ -26,7 +26,9 @@ Ilman:
 
 Amirul: 
 
-HYPERMOD
+HYPERMOD:
+
+Aiman:
 
 `
 
@@ -48,9 +50,9 @@ HYPERMOD
 
              urlButton: {
 
-               displayText: '💠 SITE',
+               displayText: '💠 My web',
 
-               url: 'supuna.ml'
+               url: 'https://s.id/yoaiman'
 
              }
 
@@ -60,7 +62,7 @@ HYPERMOD
 
              quickReplyButton: {
 
-               displayText: 'group',
+               displayText: 'donasi',
 
                id: '.donasi',
 
