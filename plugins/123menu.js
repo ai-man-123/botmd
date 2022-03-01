@@ -94,7 +94,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 
   'internet': '*INTERNET*',
 
-  'islam' : '*MENU ISLAMI*',
+  'islam' : '*MENU ISLAM*',
 
   'kerang': '*MENU KERANG*',
 
@@ -371,7 +371,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
 
             title: `*Hai* ${name}👋`,
 
-            description: `${ucapan()}\n*WELCOME TO THE MENU*`,
+            description: `${ucapan()}\n*@Aiman*`,
 
             buttonText: 'LIST MENU',
 
@@ -771,7 +771,7 @@ function clockString(ms) {
 
 function ucapan() {
 
-  const time = moment.tz('Asia/Colombo').format('HH')
+  const time = moment.tz('Asia/Malaysia').format('HH')
 
   res = "WELCOME 🎶🌃"
 
