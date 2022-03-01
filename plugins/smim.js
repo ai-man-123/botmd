@@ -10,7 +10,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 
     let mime = (q.msg || q).mimetype || ''
 
-    if (!mime) throw `වචන දෙකක් යොදා සාදාගන්න`
+    if (!mime) throw `Buat dua kata`
 
     if (!/image\/(jpe?g|png)/.test(mime)) throw `_*Mime*_`
 
