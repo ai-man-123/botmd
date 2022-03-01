@@ -14,7 +14,7 @@ let txt = `*--------「 FILM-SEARCH 」--------*\n\n`
 
 for (let i of data) {
 
-txt += `*📫 නම :* ${i.judul}\n`
+txt += `*📫 nama :* ${i.judul}\n`
 
 txt += `*🎞️  Type  :* ${i.type}\n`
 
